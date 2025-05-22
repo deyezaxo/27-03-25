@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    printf("Введите целое число: ");
+    scanf("%d", &n);
+
+    printf("%d\n", (n > 0) && !(n & (n - 1))); // 1 (true) если степень двойки, иначе 0 (false)
+
+    return 0;
+}
+

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int number;
+    
+    printf("Введите целое число: ");
+    scanf("%d", &number);
+
+    printf("%d\n", (number % 2) * 2 - 1); // 0 для четного, -1 для нечетного
+
+    return 0;
+}
+
